@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello from GitHub Actions CI/CD Pipeline!"
+    return "CI/CD Pipeline Updated Successfully!"
 
 
 if __name__ == "__main__":
